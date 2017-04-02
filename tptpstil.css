@@ -1,0 +1,129 @@
+
+/* ===========================
+   ===== Zaglavlje =========== 
+   =========================== */
+   
+.zaglavlje nav {
+	float: left;
+	padding: 10px;
+	padding-left:100px;
+	width:100px;
+	height: 30px;}
+
+.zaglavlje ul {
+    list-style-type: none;
+    margin-top: 10px;
+	margin-bottom:10px;
+	padding-left: 300px;
+    overflow: hidden;
+    background-color: #77B6EA;
+}
+
+.zaglavlje li {
+    float: left;
+	border: 4px;
+	padding-left: 2px;
+	
+}
+
+.zaglavlje li a {
+    display: block;
+    color: white;
+	background-color: #C7D3DD;
+	border:4px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+/* ===========================
+   ===== lijeva navigacija === 
+   =========================== */
+   
+.lijeva_navigacija {
+	line-height: 30px;
+	background-color: #77B6EA;
+	height: 170%;
+	width: 15%;
+	float: left;
+	padding: 5px; 
+}
+.lijeva_navigacija p {
+	font-family: Comic Sans MS;
+	font-weight: 20px;
+	border-color: black;
+	border-style: solid;}
+
+.lijeva_navigacija img{
+	width: 100%;
+	height: 120%;
+	border: 1px solid black;
+}
+
+
+.tijelo {
+	margin: 5px;
+}
+
+/* ===========================
+   ===== Desna navigacija ==== 
+   =========================== */
+   
+.desno {
+	line-height: 30px;
+	background-color: #77B6EA;
+	height: 100%;
+	width: 15%;
+	float: right;
+	padding: 10px 10px;
+}
+.desno p {
+	border:2px solid #D6C9C9;
+	color: #37393A;
+}
+
+/* ===========================
+   ===== Srednja sekcija ===== 
+   =========================== */
+   
+   
+.srednja_sekcija {
+	display: inline-block;
+	width: 67.5%;
+	height: 100%;
+	float: center;
+	margin-left: 0.4%;
+}
+
+.srednja_sekcija img{
+	float: center;
+	width: 100%;
+	height:350px;
+}
+
+
+
+/* ===========================
+   ======== Podnožje ========= 
+   =========================== */
+   
+   
+.podnozje {
+	width: 100%;
+	float: left;
+	margin: 2% 0;
+	padding: 2px;
+	background-color: #77B6EA;
+	border-radius: 5px;
+	color: #FFF;	
+}
+	
+.podnozje p {
+	color: black;
+	font-family:Comic Sans MS, sans-serif;
+	font-style: italic;
+	width: 96%;
+	margin: 2% auto;
+}
